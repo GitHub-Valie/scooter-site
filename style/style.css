@@ -1,0 +1,26 @@
+body {
+    background-image: url('../images/bg.jpg');
+}
+
+.container {
+    width: 85%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 7em;
+    background-color: #fff;
+    background-image: url('../images/illustration.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.navbar {
+    display: flex;
+    border: solid 1px black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    border: solid 1px black;
+}
