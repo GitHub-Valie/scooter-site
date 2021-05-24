@@ -1,6 +1,6 @@
-- Mettre une image de fond
-- Créer un container pour la navbar, l'image du scooter et le texte
-- Insérer l'image du scooter
-- Créer la navbar
+- [x] Mettre une image de fond
+- [x] Créer un container pour la navbar, l'image du scooter et le texte
+- [x] Insérer l'image du scooter
+- [x] Créer la navbar
 - Créer l'encart contenant le texte
 - Créer le bouton
