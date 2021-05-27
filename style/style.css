@@ -21,6 +21,8 @@ body {
 .navbar {
     /* border: solid 1px black; */
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: 0;
     align-items: center;
     justify-content: space-between;
@@ -28,11 +30,42 @@ body {
 }
 
 .navbar>* {
+    /* border: solid 1px black; */
+    display: flex;
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar-button {
-    width: auto;
+.navbar-link-group {
+    color: grey;
+}
+
+.navbar-link {
+    margin: 2em;
+}
+
+.navbar-button-group {
+    margin: 1px;
+}
+
+.signin-button {
+    margin: 1px;
+    width: 150px;
+    height: 2em;
+    background-color: transparent;
+    border: solid 2px black;
+    border-radius: 0.2em;
+    text-align: center;
+}
+
+.signup-button {
+    margin: 1px;
+    width: 150px;
+    height: 2em;
+    color: white;
+    background-color: black;
+    border: solid 2px black;
+    border-radius: 0.2em;
+    text-align: center;
 }
 
 .content {
